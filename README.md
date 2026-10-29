@@ -26,6 +26,8 @@ The first implementation should focus on one resource type and a small geographi
 
 Avoid storing precise private addresses or personal details unless necessary and consented to. Public map visibility should be configurable for sensitive resources.
 
+See [the first workflow](docs/first-workflow.md) and [initial data model](docs/data-model.md) for the proposed MVP contract.
+
 ## Architecture direction
 
 PostgreSQL for durable records, PostGIS for geospatial queries, H3 for geographic indexing and aggregation, and a simple web/API workflow before adding agents. This is a proposed direction, not a claim that the stack is already implemented in this repository.
